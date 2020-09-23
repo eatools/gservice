@@ -4,14 +4,13 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/eatools/gservice/application/onstop"
+	"github.com/eatools/gservice/onstop"
 
 	"github.com/sirupsen/logrus"
 )
 
 func TestMain(m *testing.M) {
 
-	InitLog()
 	m.Run()
 	fmt.Println(".....")
 	onstop.Exit()

@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/eatools/gservice/application/onstop"
+	"github.com/eatools/gservice/onstop"
 
 	"github.com/sirupsen/logrus"
 )
