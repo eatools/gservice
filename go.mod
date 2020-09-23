@@ -1,4 +1,4 @@
-module gservice
+module github.com/eatools/gservice
 
 go 1.15
 
