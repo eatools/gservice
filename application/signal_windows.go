@@ -6,8 +6,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/eatools/gservice/application/onstop"
-	//"gogs.lianzhuoxinxi.com/ad/lzengine/application/onstop"
+	"github.com/eatools/gservice/onstop"
 )
 
 func ListenSignal() {
