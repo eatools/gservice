@@ -6,7 +6,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/eatools/gservice/application/onstop"
+	"gservice/application/onstop"
 )
 
 func ListenSignal() {
