@@ -6,7 +6,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"gservice/application/onstop"
+	"github.com/eatools/gservice/application/onstop"
 	//"gogs.lianzhuoxinxi.com/ad/lzengine/application/onstop"
 )
 
